@@ -1,6 +1,6 @@
 # node-requests-jail #
 
-[![Build Status](https://secure.travis-ci.org/anodejs/node-requests-jail.png?branch=master)](http://travis-ci.org/anodejs/node-requests-jail)
+[![Build Status](https://secure.travis-ci.org/anodejs/node-requests-jail.png?branch=lilachp1)](http://travis-ci.org/anodejs/node-requests-jail)
 
 ## Introduction ##
 
