@@ -6,17 +6,15 @@
     "version": "0.0.1",
     "repository": {
         "type": "git",
-        "url": "git://github.com/anodejs/repo.git"
+        "url": "git://github.com/anodejs/node-requests-jail.git"
     },
     "main": "main",
-    "scripts": {
-        "test": "nodeunit test/"
-    },
     "engines": {
         "node": ">=0.8.0"
     },
     "dependencies": {
-        "express": ">=2.5.0"
+        "express": ">=2.5.0",
+        "request": "2.12.x"
     },
     "devDependencies": {
         "nodeunit": "0.6.x"
