@@ -1,7 +1,7 @@
 {
     "author": "Lilach Perry <t-lperry@microsoft.com>",
     "contributors": [ "Yosef Dinerstein <yosefd@microsoft.com>" ],
-    "name": "requests-jail",
+    "name": "node-requests-jail",
     "description": "Delays pending requests until it is told to unleash them ",
     "version": "0.0.1",
     "repository": {
