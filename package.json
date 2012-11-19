@@ -1,0 +1,28 @@
+{
+    "author": "Lilach Perry <t-lperry@microsoft.com>",
+    "contributors": [ "Yosef Dinerstein <yosefd@microsoft.com>" ],
+    "name": "requests-jail",
+    "description": "Delays pending requests until it is told to unleash them ",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/anodejs/repo.git"
+    },
+    "main": "main",
+    "scripts": {
+        "test": "nodeunit test/"
+    },
+    "engines": {
+        "node": ">=0.8.0"
+    },
+    "dependencies": {
+        "express": ">=2.5.0"
+    },
+    "devDependencies": {
+        "nodeunit": "0.6.x"
+    },
+    "scripts": {
+        "test": "nodeunit test/test.js"
+    },
+    "license": "MIT"
+}
