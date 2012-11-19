@@ -1,10 +1,12 @@
-# node-requests-jail -
+# node-requests-jail #
 
-## Introduction
+[![Build Status](https://secure.travis-ci.org/anodejs/node-requests-jail.png?branch=master)](http://travis-ci.org/anodejs/node-requests-jail)
+
+## Introduction ##
 
 requests-jail is a middleware which stores requests until its "unleash" method is called.
 
-## Usage
+## Usage ##
 The module receives 2 parameters:
 1. express application (mandatory): initialized by app = express();
 2. an "options" object (optional) which contains the following key-value pair: {match: <regexp>}
@@ -36,6 +38,6 @@ longAction(function(err) {
   reqJail.unleash();
 });
 
-## License
+## License ##
 
 MIT
