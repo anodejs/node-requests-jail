@@ -37,6 +37,7 @@ longAction(function(err) {
   console.info("long action is done");
   reqJail.unleash();
 });
+```
 
 ## License ##
 
