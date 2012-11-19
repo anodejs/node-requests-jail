@@ -106,7 +106,7 @@ module.exports = testCase({
   // Delay some of the requests, according to their path
   pathDependent: function (test) {
 
-    var reqJail = require('../lib/node-requests-jail')(app, {match: /^(?!\/$)/});
+    var reqJail = require('node-requests-jail')(app, {match: /^(?!\/$)/});
 
     //  middleware, called BEFORE requestJail
     var before = function (req, res, next){
