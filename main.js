@@ -1,1 +1,1 @@
-module.exports = require('./lib/requests-jail');
+module.exports = require('./lib/node-requests-jail');
